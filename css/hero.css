@@ -7,7 +7,8 @@
 }
 .hero .info {
     float: right;
-    margin-top: 47vh;
+    margin-top: 43vh !important;
+    width: 252px;
 }
 .hero .info .attribution {
     color: rgb(235, 236, 237);

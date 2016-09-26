@@ -29,7 +29,7 @@
     border-bottom: 2px solid;
     border-bottom-color: rgb(123, 136, 149);
     border-radius: 0 0 .5rem .5rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 .image-grid .image .info .attribution {
     color: rgb(73, 85, 96);
@@ -39,6 +39,7 @@
 .image-grid .image .info .attribution b {
     display: block;
     font-weight: 500;
+    line-height: 1.03rem;
 }
 .image-grid .image .info .avatar {
     border-radius: 50%;
@@ -46,4 +47,62 @@
     height: 50px;
     margin-right: 1rem;
     width: 50px;
+}
+
+.info {
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1em;
+}
+.grid-photo,
+.hero-photo {
+    background: url(../dest/img/avatars/all-avatars.jpg);
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 156px 108px;
+    border-radius: 50%;
+    text-indent: -2000px;
+}
+.hero-photo {
+    left: 200px;
+}
+.grid-photo {
+    left: 0;
+}
+.attribution{
+    left: 60px;
+    position: absolute;
+    top: 0;
+}
+#hero-photo {
+    background-position: -2px 0;
+}
+#photo-1 {
+    background-position: -54px 0;
+}
+#photo-2 {
+    background-position: -105px 0;
+}
+#photo-3 {
+    background-position: -54px 0;
+}
+#photo-4 {
+    background-position: -2px -56px;
+}
+#photo-5 {
+    background-position: -52px -54px;
+}
+#photo-6 {
+    background-position: -105px -54px;
+}
+#photo-7 {
+    background-position: -105px 0;
+}
+#photo-8 {
+    background-position: -105px -54px;
+}
+#photo-9 {
+    background-position: -54px 0;
 }

@@ -8,11 +8,35 @@ footer .columns {
     padding-left: 0;
 }
 footer .social {
-    text-align: right;
+    position: relative;
 }
 footer .social img {
     height: 35px;
     width: 35px;
+}
+footer .align-right {
+    position: absolute;
+    right: 0;
+}
+footer .social a.twitter-img {
+    background: url(../img/social/social-images.svg) center;
+    background-position: -70px 2px;
+}
+footer .social a.instagram-img {
+    background: url(../img/social/social-images.svg) center;
+    background-position: -2px 2px;
+}
+footer .social a.facebook-img {
+    background: url(../img/social/social-images.svg) center;
+    background-position: -36px 2px;
+}
+footer .social a {
+    text-indent: -2000px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-size: 107px 30px !important;
+    background-repeat: no-repeat !important;
 }
 footer p {
     color: rgb(125, 136, 146);
